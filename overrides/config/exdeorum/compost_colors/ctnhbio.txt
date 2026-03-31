@@ -1,0 +1,12 @@
+// Compost colors for ctnhbio. You may add your own colors, change existing ones, or remove colors that aren't needed.
+meta_core, #e4dcc6
+nova_core, #dd82f0
+omni_core, #5e6b8a
+synet_core, #46879b
+wetware_capacitor, #fe6b6f
+wetware_circuit_board, #f85762
+wetware_diode, #de6e69
+wetware_inductor, #cd6265
+wetware_printed_circuit_board, #ee7972
+wetware_resistor, #af484a
+wetware_transistor, #d36568

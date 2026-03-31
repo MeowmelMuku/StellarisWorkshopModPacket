@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5E658487357A0D35"
+	group: "208B4565BE773F2F"
+	icon: "touhou_little_maid:fairy_spawn_egg"
+	id: "5E658487357A0D35"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "037D7D5BBED1E021"
+		rewards: [{
+			id: "416E1E5082931698"
+			item: "touhou_little_maid:smart_slab_init"
+			type: "item"
+		}]
+		tasks: [{
+			id: "19E50112BA9BD8F1"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "车万女仆"
+}

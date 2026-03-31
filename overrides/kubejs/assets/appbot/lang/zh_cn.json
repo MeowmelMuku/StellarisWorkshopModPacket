@@ -1,0 +1,32 @@
+{
+  "gui.appbot.mana": "魔力",
+
+  "itemGroup.appbot.tab": "应用植物学",
+
+  "block.appbot.fluix_mana_pool": "荧石魔力池",
+
+  "item.appbot.mana_cell_housing": "ME 魔力元件外壳",
+  "item.appbot.creative_mana_cell": "创造型 ME 魔力元件",
+
+  "item.appbot.mana_storage_cell_1k": "1k ME 魔力存储元件",
+  "item.appbot.mana_storage_cell_4k": "4k ME 魔力存储元件",
+  "item.appbot.mana_storage_cell_16k": "16k ME 魔力存储元件",
+  "item.appbot.mana_storage_cell_64k": "64k ME 魔力存储元件",
+  "item.appbot.mana_storage_cell_256k": "256k ME 魔力存储元件",
+
+  "item.appbot.portable_mana_storage_cell_1k": "1k 便携式魔力元件",
+  "item.appbot.portable_mana_storage_cell_4k": "4k 便携式魔力元件",
+  "item.appbot.portable_mana_storage_cell_16k": "16k 便携式魔力元件",
+  "item.appbot.portable_mana_storage_cell_64k": "64k 便携式魔力元件",
+  "item.appbot.portable_mana_storage_cell_256k": "256k 便携式魔力元件",
+
+  "item.appbot.mana_p2p_tunnel": "魔力 P2P 通道",
+
+  "appbot.entry.fluix_mana_pool": "荧石魔力池",
+  "appbot.page.fluix_mana_pool0": "$(item)荧石魔力池$(0) 运行所需$(thing)魔力$(0)来自连接的 ME 系统",
+  "appbot.page.fluix_mana_pool1": "这还不算太糟",
+
+  "appbot.entry.mana_drives": "魔力驱动器",
+  "appbot.page.mana_drives0": "是否曾想过把魔法丢进总线，走上数字化之路？为你感到羞愧",
+  "appbot.page.mana_drives1": "这正是 Vazkii 绝不想要的"
+}

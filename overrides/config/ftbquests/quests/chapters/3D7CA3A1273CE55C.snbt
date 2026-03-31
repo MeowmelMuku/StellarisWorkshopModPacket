@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3D7CA3A1273CE55C"
+	group: "68AE7D13759B39D8"
+	icon: "nuclearcraft:plutonium_rtg"
+	id: "3D7CA3A1273CE55C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["48DEABA155605D23"]
+		id: "784D1E7133F73104"
+		tasks: [{
+			id: "2FBBCF29E3972C50"
+			item: "nuclearcraft:chassis"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "临界平衡"
+}

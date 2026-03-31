@@ -1,0 +1,4 @@
+// Compost colors for bettergtae. You may add your own colors, change existing ones, or remove colors that aren't needed.
+fluid_infinity_cell, #2c2d52
+item_infinity_cell, #292a2a
+structure_tools, #cf0c0c

@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7865A227010AC6A9"
+	group: ""
+	icon: "gtmutils:ancient_gold_coin"
+	id: "7865A227010AC6A9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:chicken"
+					}
+				}
+			}
+			id: "3DF0236A1EB3C51D"
+			rewards: [{
+				id: "6120597B75399DEF"
+				item: "minecraft:chicken_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "419AD74181A4916D"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:pig"
+					}
+				}
+			}
+			id: "06D841B201FA9008"
+			rewards: [{
+				id: "1CA556DC547866D8"
+				item: "minecraft:pig_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2AE43F160FF25FB6"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:sheep"
+					}
+				}
+			}
+			id: "52DF3CFEB5F59D9E"
+			rewards: [{
+				id: "43DC3E3F6E3DA51A"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "418E9712DF8F0ED2"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:cow"
+					}
+				}
+			}
+			id: "5F6CFF42E2CC00F3"
+			rewards: [{
+				id: "12CF22AA501D19E4"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "00D7F7758AAEE9B3"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			hide_until_deps_complete: true
+			icon: "minecraft:dirt"
+			id: "06102F4EDBEFCBDA"
+			rewards: [{
+				count: 16
+				id: "0D71594536EF1BC0"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4DEAA9B3F8FD8E06"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:sand"
+			id: "33CEEAF95526588D"
+			rewards: [{
+				count: 16
+				id: "31472750E82C59FF"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2C7E4850FED2A139"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:gravel"
+			id: "5A6E179624C07439"
+			rewards: [{
+				id: "5A9711A91FC2A755"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2851E69D2E7786C9"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:cobblestone"
+			id: "65FC6C0008F2D846"
+			rewards: [{
+				count: 16
+				id: "1213C3AFA24A286A"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "10C834FD1F53342F"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "商店"
+}

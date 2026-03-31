@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3059D58598E9A5F2"
+	group: "208B4565BE773F2F"
+	icon: "productivebees:honey_treat"
+	id: "3059D58598E9A5F2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "558DCED5F9DF81AC"
+		tasks: [{
+			id: "3D68E9CE2DCC1A43"
+			item: "productivebees:incubator"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "资源蜜蜂"
+}

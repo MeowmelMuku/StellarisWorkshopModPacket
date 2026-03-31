@@ -1,0 +1,5 @@
+// Compost colors for deafission. You may add your own colors, change existing ones, or remove colors that aren't needed.
+fuelcell_plutonium_x1, #f03a43
+fuelcell_thorium_x1, #ff5fa8
+fuelcell_uranium_x1, #89ff72
+fuelcell_uranium_x4, #72ff5f

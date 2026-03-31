@@ -1,0 +1,3 @@
+// Compost colors for aewireless. You may add your own colors, change existing ones, or remove colors that aren't needed.
+wireless_connect, #e7a1be
+wireless_destroy, #bb86c0

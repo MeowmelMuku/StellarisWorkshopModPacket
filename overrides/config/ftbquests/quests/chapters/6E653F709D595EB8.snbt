@@ -1,0 +1,269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6E653F709D595EB8"
+	group: "208B4565BE773F2F"
+	icon: "botania:brewery"
+	id: "6E653F709D595EB8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D54DF391E989E79"]
+			id: "5A269C13B911B189"
+			tasks: [{
+				id: "0F57466CBDA7219A"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2D54DF391E989E79"
+			tasks: [{
+				id: "0D98C510782AFEA2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:petals"
+					}
+				}
+				title: "Any #botania:petals"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A269C13B911B189"]
+			id: "687EFA154596E54F"
+			tasks: [{
+				id: "75354F371C490E16"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["687EFA154596E54F"]
+			id: "746CC9482E3A82A3"
+			tasks: [{
+				id: "2173868478510E5B"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["746CC9482E3A82A3"]
+			id: "3796B5CA9312C7A8"
+			tasks: [{
+				id: "35153D8335923A39"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["687EFA154596E54F"]
+			id: "4758F7355841D848"
+			tasks: [{
+				id: "66DBB5E99B4AE3D1"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4758F7355841D848"]
+			id: "79FC5F1AD78D1177"
+			tasks: [{
+				id: "791AFF2279024ACD"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4758F7355841D848"]
+			id: "77B36AA8B5C72DDC"
+			tasks: [{
+				id: "7546390509ED21D9"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77B36AA8B5C72DDC"]
+			id: "3B47D24BB0D4DA31"
+			tasks: [{
+				id: "42B6BEE938107753"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3B47D24BB0D4DA31"
+				"08E641A900018C5C"
+			]
+			id: "11D61F757771A9A1"
+			tasks: [{
+				id: "0459FECE56C05385"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"11D61F757771A9A1"
+				"4A47940BDD423F68"
+				"2F677797F43619E1"
+			]
+			id: "7B05F8A9635899F2"
+			tasks: [{
+				id: "6892E43C5BB8DF3A"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["77B36AA8B5C72DDC"]
+			id: "2F677797F43619E1"
+			tasks: [{
+				id: "764BD0594BA47EAD"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77B36AA8B5C72DDC"]
+			id: "4A47940BDD423F68"
+			tasks: [{
+				id: "5FA7283233F14FFE"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["79FC5F1AD78D1177"]
+			id: "08E641A900018C5C"
+			tasks: [
+				{
+					id: "54CE06BE86B9137D"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "782E32B5CEC2C532"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "66770F6E5181EED0"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					id: "51913ACF9F7EDE4E"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "563AA83365F60EB4"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2F677797F43619E1"]
+			id: "6241D74A987E7DC0"
+			tasks: [{
+				id: "2F4E5E728A978068"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6241D74A987E7DC0"]
+			id: "36DDE94FC72BB5DE"
+			tasks: [{
+				id: "229F33663402E78B"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3796B5CA9312C7A8"]
+			id: "08D3E8914F32BDEF"
+			tasks: [{
+				id: "4096B2AEC31299B2"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3796B5CA9312C7A8"]
+			id: "23462409DE98339C"
+			tasks: [{
+				id: "56125484F6954489"
+				item: "botania:open_crate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["08D3E8914F32BDEF"]
+			id: "5E21B4B659B88C69"
+			tasks: [{
+				id: "42BD02673B22D20F"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77B36AA8B5C72DDC"]
+			id: "4479DF668F884C90"
+			tasks: [{
+				count: 4L
+				id: "4C1429EF0BE03D16"
+				item: { Count: 4, id: "mysticalagriculture:prosperity_shard" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+	]
+	title: "植物魔法"
+}

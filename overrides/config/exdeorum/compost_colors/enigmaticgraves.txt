@@ -1,0 +1,2 @@
+// Compost colors for enigmaticgraves. You may add your own colors, change existing ones, or remove colors that aren't needed.
+grave_finder, #b6c5c8

@@ -1,0 +1,6 @@
+{
+	"block.woodenhopper.wooden_hopper": "木漏斗",
+	"block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromWorld": "无法吸取放置于其上方的物品实体",
+	"block.woodenhopper.wooden_hopper.desc.cannotAbsorbItemsFromInventories": "无法从其上方的容器中吸取物品"
+}
+

@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "343B2EC9CA4D453D"
+	group: "68AE7D13759B39D8"
+	icon: "mekanismgenerators:fission_fuel_assembly"
+	id: "343B2EC9CA4D453D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DDCBC03D6E084A2"]
+			id: "1454A2133F83CD0F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "59BBB91824939FC8"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "737B98F482FED37F"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "0C26B863E3B1EE90"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "4674E495EEB65915"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "7E9957DBBBD47596"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70F9512E4D45C9DB"]
+			id: "0DDCBC03D6E084A2"
+			tasks: [{
+				id: "109D5E502A26A042"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7ADD9598332FC7FC"]
+			id: "70F9512E4D45C9DB"
+			tasks: [{
+				id: "2065843110C55C56"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1454A2133F83CD0F"]
+			id: "27E682AF932AF05C"
+			tasks: [{
+				id: "5EDEECE244C5862A"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1454A2133F83CD0F"]
+			id: "1C011CA693B49991"
+			tasks: [{
+				id: "3C7BCDF3260D0535"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1C011CA693B49991"
+				"27E682AF932AF05C"
+			]
+			id: "692634E16D7F8321"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "06F831E8BD9A5AA6"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "27FE3D8481022812"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "08AE28152A8F4708"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["692634E16D7F8321"]
+			id: "698D8024A6197D64"
+			tasks: [{
+				id: "1309239AE0F8B050"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C011CA693B49991"]
+			id: "74007DD437064181"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5E54C11D13038DF4"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "344A47FD0B81780B"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "299B89C122D38EAC"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["698D8024A6197D64"]
+			id: "144F905BB4ADE53E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7B5F7C0D7416FEB9"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+	]
+	title: "链式反应"
+}

@@ -1,0 +1,5 @@
+// Compost colors for createfisheryindustry. You may add your own colors, change existing ones, or remove colors that aren't needed.
+copper_diving_leggings, #f5a073
+netherite_diving_leggings, #433739
+worn_harpoon, #b6b8b4
+zinc_sheet, #ffffff

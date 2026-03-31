@@ -1,0 +1,721 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm__zero_point_module"
+	group: "693226878D58638A"
+	icon: "gtceu:zpm_electric_motor"
+	id: "0945247E83444D90"
+	order_index: 10
+	quest_links: [
+		{
+			id: "6BE70146903B5CBD"
+			linked_quest: "52D00CD3E8D1E293"
+			shape: "rsquare"
+			size: 0.75d
+			x: -7.125d
+			y: 3.375d
+		}
+		{
+			id: "21A3EAE297C446EC"
+			linked_quest: "24F0454B9A090C44"
+			size: 0.75d
+			x: -6.0d
+			y: 2.25d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["24F0454B9A090C44"]
+			description: [
+				"&a零点模块&r（物品）是一个含有巨量能量的不可充电电池。你可能在此之前已经找到它了，但在&cZPM&r之前还无法使用。"
+				""
+				"它只能作为&6丛林神庙&r的战利品获得。它非常稀有，所以你也不用担心找到它们。"
+				""
+				"这个任务是&6可选的&r，而且纯粹为了好玩。所以如果你想全收集的话请随意按下那个复选框吧！"
+				"{@pagebreak}"
+				"&l&3小知识：&r&o零点模块（Zero_Point_Module），ZPM的全称，也源于星际之门。它是以一种能产生大量能量的机器命名的。"
+			]
+			icon: "gtceu:zero_point_module"
+			id: "75905E3672399A63"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "终极能源！"
+			tasks: [
+				{
+					id: "10AC8DC9332D084C"
+					item: "gtceu:zero_point_module"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7AD0E74B9CD9AFAE"
+					type: "checkmark"
+				}
+			]
+			title: "零点模块"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C7C0F6A6598BC24"]
+			description: [
+				"&aZPM超导体&r是&9聚变反应堆Mk2&r的一大门槛，需求量非常大。"
+				""
+				"你也可以用它们制作&9超导线圈&r来降低成本。"
+			]
+			id: "2587BFD0D9F3FF4A"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "被这些黑黢黢的东西弄烦了吗？"
+			tasks: [{
+				id: "5688605649CC30C3"
+				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
+				type: "item"
+			}]
+			title: "ZPM超导体"
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A74F692F14F0FF8"
+				"24F0454B9A090C44"
+			]
+			description: [
+				"还好，&cZPM&r元件比起&dLuV&r没有难很多。"
+				""
+				"它们会用很多&9锇&r，所以确保你的铂线可以跟的上需求。"
+			]
+			icon: "gtceu:zpm_electric_motor"
+			id: "5BBFE222190891DE"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "准备好你的铂线吧！"
+			tasks: [
+				{
+					id: "17E45B64101F2249"
+					item: "gtceu:zpm_electric_motor"
+					type: "item"
+				}
+				{
+					id: "4EDD7EE060B4895B"
+					item: "gtceu:zpm_electric_piston"
+					type: "item"
+				}
+				{
+					id: "61AAFDF548821774"
+					item: "gtceu:zpm_electric_pump"
+					type: "item"
+				}
+				{
+					id: "4EEAD829002AD3FE"
+					item: "gtceu:zpm_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "2AFFFD27485AD039"
+					item: "gtceu:zpm_robot_arm"
+					type: "item"
+				}
+				{
+					id: "68A105502E49FEDC"
+					item: "gtceu:zpm_sensor"
+					type: "item"
+				}
+				{
+					id: "555A9F017694B184"
+					item: "gtceu:zpm_emitter"
+					type: "item"
+				}
+			]
+			title: "绝对欢愉"
+			x: -6.0d
+			y: 1.125d
+		}
+		{
+			dependencies: ["378F0AFCF95354B2"]
+			description: [
+				"&a富集硅岩&r是硅岩的同位素Nq-528。它是放射性的，而且会被用于尚未完成的核反应堆。"
+				""
+				"目前你只需要用它制作&9凯金线圈&r。"
+			]
+			icon: "gtceu:enriched_naquadah_ingot"
+			id: "74B037D7031F4A78"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "硅岩，但有放射性！"
+			tasks: [
+				{
+					id: "4598D1D78A71E514"
+					item: "gtceu:naquadria_sulfate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08B5C0B89DB3E272"
+					item: "gtceu:enriched_naquadah_ingot"
+					type: "item"
+				}
+			]
+			title: "富集硅岩"
+			x: -2.625d
+			y: -1.125d
+		}
+		{
+			dependencies: [
+				"74B037D7031F4A78"
+				"0DC999F79A685194"
+				"2FCBA0D780DBDA9E"
+			]
+			description: [
+				"&a凯金线圈&r可以承受&d9,001K&r的温度。"
+				""
+				"&cZPM&r的下半部分之后需要这些线圈。"
+			]
+			id: "4C7C0F6A6598BC24"
+			size: 0.75d
+			subtitle: "超过9,000了！！！"
+			tasks: [{
+				count: 16L
+				id: "11CD2F83031C6706"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			title: "凯金线圈"
+			x: -2.625d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"52D952ADBEB67454"
+				"2587BFD0D9F3FF4A"
+			]
+			description: [
+				"&3研究站&r是扫描仪的进阶版本。它可以用于更为高级的研究方式。它可以用&a数据球和模块&r研究。"
+				""
+				"你需要能量和&9算力&r来运行&3研究站&r。后者可以通过&9HPCA&r提供，而它会在下个任务中详细说明。它可以用&3算力数据靶仓&r接收。注意一个研究站只能有一个数据靶仓。"
+				"{@pagebreak}"
+				"这个多方块结构只需要&d间歇的&r算力供应，也就是说算力不足时进度也不会倒退，只是会停在原地。如果不满足最小算力它甚至都不会启动。但是即使没有算力它也会持续消耗能量。"
+				""
+				"它和扫描仪的工作机制可以类比。你需要在&3物品支架&r上放置目标物品，并在其他槽上放置数据容器。然后提供算力，同时数据容器也会持续更新直至完成。运行时目标物品会被锁定而无法拿出。"
+				""
+				"&e注意：&r&3物品支架&r必须面对控制器方块。"
+			]
+			id: "468EEFD9D2F69014"
+			size: 0.75d
+			subtitle: "你的研究之路还在持续！"
+			tasks: [{
+				id: "148C1C60A855B61E"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			title: "研究站"
+			x: -3.75d
+			y: 1.125d
+		}
+		{
+			dependencies: [
+				"1D6CC3C7F6BE4055"
+				"7AE681E2AB31EA0D"
+			]
+			description: [
+				"&aUV处理器主机&r可以用于制作&3聚变反应堆Mk2&r。"
+				""
+				"它也是在装配线中制作的！"
+				""
+				"略过那些我们已经见过的组分之后，需要注意的就是&6高速钢-E框架&r了。"
+			]
+			id: "79E4E53E9DF45549"
+			size: 0.75d
+			subtitle: "······啊，开始吧！"
+			tasks: [{
+				id: "226973A23C89BDD2"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			title: "首个UV电路！"
+			x: -2.625d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1D6CC3C7F6BE4055"]
+			description: [
+				"&a晶体SoC&r可以制作更便宜的&9晶体电路&r。享受折扣吧！"
+				""
+				"晶体SoC需要&9ZPM发射器&r，意味着你需要&9数据球&r来研究。"
+				""
+				"未来它可能做起来更难一点。"
+				"{@pagebreak}"
+				"&l&3小知识：&r&o在GT5u里，它的贴图是红的，而且没有那个特别的设计。有一个“原始”版本的设计，但被用在了其他地方。天知道为什么！"
+			]
+			id: "29B7D93D7F32DBA9"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "蚀刻一次是不够的"
+			tasks: [{
+				id: "488A759013AF2680"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			title: "晶体SoC"
+			x: -4.875d
+			y: 1.125d
+		}
+		{
+			dependencies: ["1D6CC3C7F6BE4055"]
+			description: [
+				"这个仓可以让你存储更多&a数据容器&r。"
+				""
+				"不要忘记这个仓需要&9数据球&r进行研究。"
+			]
+			id: "72740001958E929A"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "增加存储密度！"
+			tasks: [{
+				id: "0EC657B81458D697"
+				item: "gtceu:advanced_data_access_hatch"
+				type: "item"
+			}]
+			title: "高级数据访问仓"
+			x: -4.875d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"378F0AFCF95354B2"
+				"4C7C0F6A6598BC24"
+			]
+			description: ["&a超能硅岩&r是硅岩的同位素Nq-522。它极为不稳定，可用于&3UV&r元件、&9聚变反应堆Mk2&r和聚变。"]
+			icon: "gtceu:naquadria_ingot"
+			id: "6D1F10543A391940"
+			size: 0.75d
+			subtitle: "硅岩，但更有放射性！"
+			tasks: [
+				{
+					id: "4A49FE8B35B48D97"
+					item: "gtceu:naquadria_sulfate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13A95E109FF72A87"
+					item: "gtceu:naquadria_ingot"
+					type: "item"
+				}
+			]
+			title: "超能硅岩"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["690E013DFCB060ED"]
+			description: [
+				"&a无菌培养基&r是GTCEu的最后一条线了，对于现在。"
+				""
+				"你可以拿它做&4湿件电路&r。"
+				""
+				"它的生产难度和PBI差不多，但几乎所有步骤都需要无菌超净间。这意味着你需要薅下几根头发才能把它塞进去。"
+				""
+				"确保你看了每一步所有的配方，因为一些输入明显更好！"
+				""
+				"&e高级技巧：&r如果你想省下更多空间，你可以让超净室共享墙壁和门。"
+				"{@pagebreak}"
+				"&l&3小知识：&r&oGTCEu的无菌培养基链可能源自GTNH的巴特的作品。主要的不同在于GTNH需要细菌培养缸，比装配线复杂多了！GTCEu也想添加一个那样的多方块结构，但要有自己的特点。"
+				"{@pagebreak}"
+				"&l&3更多小知识：&r&o在GCYL中，无菌培养基链不太一样。它是那个模组里最难的处理过程，有超过30步！它是基于真实世界中的微生物和养分设计的。"
+				"{@pagebreak}"
+				"&l&3更更多小知识：&r&o在格雷之影中，它只用蒸馏水和肉末合成！哎呀扯太远了······"
+			]
+			id: "6AFDA523304711DB"
+			size: 0.75d
+			subtitle: "最后的处理器线，终于！"
+			tasks: [{
+				id: "5FFC06116E025936"
+				item: "gtceu:sterilized_growth_medium_bucket"
+				type: "item"
+			}]
+			title: "无菌培养基"
+			x: -0.375d
+			y: 1.125d
+		}
+		{
+			dependencies: [
+				"64EA73FAB2A51850"
+				"0D7C978F9CDF771B"
+			]
+			description: [
+				"&aZPM版的兰波顿能量球&r比&dLuV&r的还要好！当然也更贵······"
+				"{@pagebreak}"
+				"&l&3小知识：&r&o想象一下你需要做64个IV的或者8个LuV的球才能做它吧！更多细节请看LuV能量球。"
+			]
+			icon: "gtceu:energy_module"
+			id: "690A51204DF5D469"
+			size: 0.75d
+			subtitle: "一个能量奇点！"
+			tasks: [{
+				id: "41813C4D68B991D7"
+				item: "gtceu:energy_module"
+				type: "item"
+			}]
+			title: "巨无霸电池"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1D6CC3C7F6BE4055"
+				"52D00CD3E8D1E293"
+				"7A74F692F14F0FF8"
+				"24F0454B9A090C44"
+			]
+			description: [
+				"这个任务你可以&e任意&r用&3ZPM能源仓&r······或用于多方块发电机的&3ZPM动力仓&r。"
+				""
+				"不要忘记&d16A&r的版本存在！"
+				""
+				"不要忘记这些仓需要&9数据球&r研究。"
+			]
+			icon: "gtceu:zpm_energy_input_hatch"
+			id: "64EA73FAB2A51850"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [
+				{
+					id: "0B57097F8879481C"
+					item: "gtceu:zpm_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2C60B79F78094E6A"
+					item: "gtceu:zpm_energy_output_hatch"
+					type: "item"
+				}
+			]
+			title: "升级你的装配线II"
+			x: -6.0d
+			y: 3.375d
+		}
+		{
+			dependencies: [
+				"35F13B6D60361904"
+				"3568BC9742092FC5"
+			]
+			description: [
+				"下一级的电路需要&a无菌超净间&r几乎所有的步骤都需要在其内部完成！希望你能把那么多机器放进如此小的地方！"
+				""
+				"如果你只有一个&3超净间&r，你还需要再做一个给&a无菌&r配方。"
+				""
+				"&e注意：&r无菌超净间不能运行一般的超净间配方，所以你不能单纯地“升级”它。"
+			]
+			id: "690E013DFCB060ED"
+			size: 0.75d
+			subtitle: "现在加上消杀了！"
+			tasks: [{
+				count: 8L
+				id: "6A4C78385FF8019A"
+				item: "gtceu:sterilizing_filter_casing"
+				type: "item"
+			}]
+			title: "无菌超净间"
+			x: -0.375d
+			y: 2.25d
+		}
+		{
+			dependencies: ["468EEFD9D2F69014"]
+			description: [
+				"&3高性能计算阵列&r（&3HPCA&r）是可以产生&9算力&r（CWU/t，计算工作单元每刻）的多方块结构。"
+				""
+				"HPCA有不同组件组成的模块化多方块结构。一共有&a9个槽位&r可供组件使用，EMI里也有一些设计样例，所以如果感到疑惑，这些可能会帮到你。"
+				"{@pagebreak}"
+				"大致有两类组件："
+				""
+				"-&9计算组件：&r可以产生一定量的CWU/t并且需要EU/t和冷却。"
+				"-&9冷却组件：&r可以提供一定量的冷却并且需要EU/t。"
+				""
+				"目前可用的组件："
+				""
+				"-&9空：&r占着茅坑不拉屎。"
+				"-&9散热组件：&r不需要能量，但只提供1冷却。"
+				"-&9主动冷却：&r需要能量、PCB冷却液，但提供2冷却。"
+				"-&9计算组件&r：提供4CWU/t，但需要很多能量和冷却。"
+				"{@pagebreak}"
+				"HPCA有一个待机功率。能量和冷却会在待机功率和最大值之间变化。最大值取决于所使用的算力。"
+				""
+				"如果HPCA的冷却不够，使计算组件在超过&c100C&r的条件下运行（待机温度是&a20C&r），那么它就可能会&4损坏&r。只有计算组件会损坏，而其他的不会。"
+				""
+				"HPCA只能有1个&3算力数据源仓&r。你可以把它与&9研究站&r用光缆链接来传输算力。"
+				"{@pagebreak}"
+				"ZPM基础CWU/t需求："
+				""
+				"-&a4CWU/t&r的&cZPM&r传感器、发射器和力场发生器"
+				"-&a8CWU/t&r的&cZPM&r能源仓"
+				"-&a16CWU/t&r的&3UV&r电路及以后。"
+				""
+				"不要强迫自己现在就达到16CWU/t，一口吃不成个大胖子。在它们之间还有很多要做的呢。"
+				"{@pagebreak}"
+				"&l&3小知识：&r&o这个机制的灵感可能来自TecTech的量子计算机。它们俩挺像的，但那个更烦人，比如未定元解析器。"
+			]
+			id: "1D6CC3C7F6BE4055"
+			size: 0.75d
+			subtitle: "这不是量子计算机······"
+			tasks: [{
+				id: "5F20D430C26D3BE4"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			title: "HPCA"
+			x: -3.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6AFDA523304711DB"]
+			description: ["&a干细胞&r是&4湿件电路&r的核心组分。但不要问为什么会用到锇。"]
+			id: "33A1FF5C31EAF716"
+			size: 0.75d
+			subtitle: "这个帖图以前特别丑······"
+			tasks: [{
+				id: "1E31342D5310ED6D"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			title: "干细胞"
+			x: -0.375d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33A1FF5C31EAF716"]
+			description: [
+				"最终的电路基板——长路漫漫呀！如你所见，它比其它所有的都贵得&c多&r，但对你应该还好。你已经是个高玩了！"
+				"{@pagebreak}"
+				"&l&3小知识：&r&o在GTNH里，这些电路基板需要LuV传感器，而不是IV的。这意味着湿件LuV电路需要其它（晶体）LuV电路！"
+				""
+				"而且由于湿件电路基板太贵了，所以除非必须要HUV电路，大家都爱用晶体的。幸好GTCEu没有这个问题。LuV湿件电路还是值得一做的。"
+			]
+			id: "678CABA03E17516A"
+			size: 0.75d
+			subtitle: "含有生命的电路基板"
+			tasks: [{
+				id: "0097D7805D82EDEC"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			title: "湿件印刷电路基板"
+			x: -0.375d
+			y: -1.125d
+		}
+		{
+			dependencies: ["678CABA03E17516A"]
+			description: ["&a神经处理单元&r可以作为&4湿件&r的CPU。它的配方中也需要一个电路基板，但也是九牛一毛了。"]
+			id: "3BD68E5909A97532"
+			size: 0.75d
+			subtitle: "用于计算的神经元"
+			tasks: [{
+				id: "06AE61C5F174F4E7"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			title: "它是活的！"
+			x: 0.75d
+			y: -1.125d
+		}
+		{
+			dependencies: ["082AB255886E73C2"]
+			description: [
+				"&4湿件&r线的第二个电路。"
+				""
+				"这也是最好的&cZPM&r电路！"
+			]
+			id: "370FC1CDF5F9A9CC"
+			size: 0.75d
+			subtitle: "那个电路刚才是不是朝我眨眼了吗？"
+			tasks: [{
+				id: "31DF7507733F3EE0"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			title: "最好的ZPM电路！"
+			x: 0.75d
+			y: 1.125d
+		}
+		{
+			dependencies: ["3BD68E5909A97532"]
+			description: [
+				"&4湿件&r线的首个电路。"
+				""
+				"&6恭喜恭喜&r！"
+			]
+			id: "082AB255886E73C2"
+			size: 0.75d
+			subtitle: "唷，它是活的！"
+			tasks: [{
+				id: "0B12A1F63822CF8A"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			title: "最好的LuV电路！"
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24366846FDA52CE3"]
+			description: [
+				"记得&3GTCE&r的&a𫟼&r工具吗？呃然后······猜猜谁回来了？"
+				""
+				"&a𫟼&r是&3UV&r外壳的主要材料。它也是通过聚变产生的。"
+				"{@pagebreak}"
+				"&b有趣的事实：&r在标准状况下不存在液态砷。而是会直接升华为气态！“现实”，我才不信。"
+			]
+			id: "6988AE94BE7B461F"
+			size: 0.75d
+			subtitle: "我想要我的粒子加速器······"
+			tasks: [{
+				id: "798EFE8E18E79C0C"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			title: "𫟼"
+			x: -2.625d
+			y: 4.5d
+		}
+		{
+			dependencies: ["546CC03435E763CF"]
+			description: [
+				"&a铿铀&r是源于星际迷航的材料，也用于GT中其他的一些东西。它可以做一些很棒的管道，但你在未来一段时间内不需要很多。"
+				"{@pagebreak}"
+				"&l&3小知识：&r&o在GT5u的一些版本中，这个材料是全白的。实际上，大多数聚变材料和后期材料都和它差不多。真没劲！"
+			]
+			id: "2CB8FCE09920042C"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "谁还想要星际之门？"
+			tasks: [{
+				id: "0933A476B9F87E66"
+				item: "gtceu:duranium_ingot"
+				type: "item"
+			}]
+			title: "铿铀"
+			x: -0.375d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24366846FDA52CE3"]
+			description: [
+				"&a镅&r是一个聚变Mk2材料，在GTCEu的进步中需求量很大！"
+				""
+				"它需要聚变两次——镧和硅可以做&b镥&r，然后&b镥&r和铬可以做&a镅&r。"
+				"{@pagebreak}"
+				"&l&3小知识：&r&o在GCYL中，𬭊代替了镅。镅只能从核反应堆里获得，所以GCYL把它变成了人造元素𬭊。"
+			]
+			id: "762C48F0C2EA6B81"
+			shape: "gear"
+			size: 0.75d
+			subtitle: "如果我们能在核反应堆里做它就好了······"
+			tasks: [{
+				id: "5D597AE565A54388"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			title: "[章节毕业线]镅"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["370FC1CDF5F9A9CC"]
+			description: [
+				"&4湿件&r线的第三个电路。先找些&b铕&r来吧。"
+				""
+				"这也是最好的&3UV&r电路！"
+			]
+			id: "359121584E056022"
+			size: 0.75d
+			subtitle: "能感知的电路"
+			tasks: [{
+				id: "5F54BE8467A5C882"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			title: "最好的UV电路！"
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["79E4E53E9DF45549"]
+			description: [
+				"&3进阶HPCA组件&r是普通组件的升级版，可以增加一台HPCA的算力。"
+				""
+				"&3HPCA进阶计算组件&r可以提供&a4倍&r算力而只用&a2倍&r冷却！"
+			]
+			id: "0199DBC46D7BC2B9"
+			size: 0.75d
+			subtitle: "是时候来点进阶算力了！"
+			tasks: [{
+				id: "761AFCD5742F9A03"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			title: "进阶HPCA组件"
+			x: -2.625d
+			y: 1.125d
+		}
+		{
+			dependencies: [
+				"6D1F10543A391940"
+				"64EA73FAB2A51850"
+				"79E4E53E9DF45549"
+			]
+			description: [
+				"搭建这个结构需要&aEMI&r中的聚变玻璃。"
+				""
+				"你可以尽可能地把输入和输出仓塞进去（在结构中显示）来节省聚变机器外壳。"
+				""
+				"&a聚变反应堆Mk2&r比Mk1更贵！最主要的不同在于&6开启耗能&r，让你可以运行新的配方。"
+				""
+				"它也可以将低等级的配方超频，比如Mk1里的。看看Mk1的任务来了解这个机制如何工作吧。"
+			]
+			id: "24366846FDA52CE3"
+			rewards: [{
+				id: "39B9B95A4C35CF08"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "聚变，但是更贵······"
+			tasks: [{
+				id: "0D45B9FFF6BA13FE"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			title: "聚变反应堆II"
+			x: -1.5d
+			y: 3.375d
+		}
+		{
+			dependencies: [
+				"2CB8FCE09920042C"
+				"24366846FDA52CE3"
+			]
+			description: [
+				"&a三钛&r是源自星际迷航的材料，也用于GT中其他的一些东西。像&9镅&r一样，需要两步聚变！"
+				""
+				"你需要用它来获得下一级的电路和&3UV&r元件。"
+				"{@pagebreak}"
+				"&l&3小知识：&r&o在GT5u的一些版本里，三钛的液体是红色的，但材料又是白的。在GTCEu里，我们决定把它全变成红的。嗯，看起来好多了！"
+			]
+			id: "35F13B6D60361904"
+			size: 0.75d
+			subtitle: "星际迷航（星际旅行）又来了！"
+			tasks: [{
+				id: "6C5B3B1C0B85C003"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			title: "[章节毕业线]三钛合金"
+			x: -0.375d
+			y: 3.375d
+		}
+	]
+	subtitle: ["掌握宇宙并利用微生物"]
+	title: "&cZPM&r——零点压"
+}

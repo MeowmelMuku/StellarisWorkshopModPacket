@@ -1,0 +1,4 @@
+// Compost colors for ctpp. You may add your own colors, change existing ones, or remove colors that aren't needed.
+basic_mechanism, #b28c66
+incomplete_basic_mechanism, #b6834e
+steel_mechanism, #b4b9bc

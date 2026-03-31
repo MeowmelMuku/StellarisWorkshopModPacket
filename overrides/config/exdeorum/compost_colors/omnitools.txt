@@ -1,0 +1,3 @@
+// Compost colors for omnitools. You may add your own colors, change existing ones, or remove colors that aren't needed.
+omni_vajra, #8eaebe
+omni_wrench, #9494b6

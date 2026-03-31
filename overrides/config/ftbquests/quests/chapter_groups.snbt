@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "693226878D58638A", title: "拾级而上" }
+		{ id: "68AE7D13759B39D8", title: "集成之道" }
+		{ id: "02C72220881B8BF9", title: "自动化控制" }
+		{ id: "208B4565BE773F2F", title: "时光织梦" }
+		{ id: "288DA1F92F7C0A7A", title: "指南和更多" }
+		{ id: "1C1C4FB2AFCF489D", title: "里程碑" }
+	]
+}

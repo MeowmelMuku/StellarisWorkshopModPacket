@@ -1,0 +1,9 @@
+#Whether to use energy
+is_energy = true
+#Master Transceiver Energy
+#Range: 0.0 ~ 2.147483647E9
+base_energy = 100.0
+#The battery multiplier
+#Range: 0.0 ~ 2.147483647E9
+battery_multiplier = 1.0
+

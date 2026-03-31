@@ -1,0 +1,318 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "57833501619323F1"
+	group: "68AE7D13759B39D8"
+	icon: "mekanism:metallurgic_infuser"
+	id: "57833501619323F1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7820DF52516344F4"]
+			id: "22FDC91A0F2C4F2D"
+			tasks: [{
+				id: "0A5C9AFE819C3B2E"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22FDC91A0F2C4F2D"]
+			id: "38B208139F7DD614"
+			tasks: [{
+				id: "5602EC0FB7C5B6BF"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38B208139F7DD614"]
+			id: "7829B4BC1F4BC945"
+			tasks: [{
+				id: "6D93DFA98CDA6DB8"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7829B4BC1F4BC945"]
+			id: "4EA15CB8AEFAD259"
+			tasks: [{
+				id: "1620B5C5CB82B172"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EA15CB8AEFAD259"]
+			id: "09C0C7377FB66D56"
+			tasks: [{
+				id: "770DEBFA6B16E215"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09C0C7377FB66D56"]
+			id: "4E898166B7DEB1D8"
+			tasks: [{
+				id: "49B76D4D00FA39D5"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E898166B7DEB1D8"]
+			id: "20FFA8653CB47EAB"
+			tasks: [{
+				id: "39BD9458277C9B56"
+				item: "mekanism_extras:absolute_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20FFA8653CB47EAB"]
+			id: "45990262D49C80E0"
+			tasks: [{
+				id: "528B6B955CF5EDFC"
+				item: "mekanism_extras:supreme_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["45990262D49C80E0"]
+			id: "2A9CF3F240D9244C"
+			tasks: [{
+				id: "28DF7566507519D6"
+				item: "mekanism_extras:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2A9CF3F240D9244C"]
+			id: "0D054718E0A1CD31"
+			tasks: [{
+				id: "26D2938B4A3587ED"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["22FDC91A0F2C4F2D"]
+			description: [
+				"&7“高效能源与自动化加工的强力替代方案”&r"
+				""
+				"在本整合包中，MEK并非主线强制内容，但它为你提供了一条极具竞争力的发展路径。无论是后期爆发式发电还是高效的基础加工，MEK都能成为你工业化进程中的强大助力。"
+				""
+				"尽管GregTech的数值体系相当庞大，但MEK的核电站与聚变反应堆依然能提供可观的电力输出。更重要的是，相比GT复杂的多方块结构，MEK的单方块升级系统在操作便捷性上具有明显优势。"
+				"{@pagebreak}"
+				""
+				"&9核心优势：&r"
+				""
+				"&c能源革命&r：从基础风力到终极聚变，提供阶梯式发电方案"
+				""
+				"&6加工优化&r：五倍矿产处理、高效化工流程，大幅提升生产效率"
+				""
+				"&e升级系统&r：通过安装升级组件，无缝提升机器性能，无需重建结构"
+				""
+				"&b物流网络&r：完善的管道和物流系统，轻松构建全自动生产线"
+				""
+				"&l发展建议：&r"
+				""
+				"在GT进程遇到瓶颈时，MEK可以作为有效的补充路径"
+				""
+				"优先发展化工系统和发电设施，这两大体系最具竞争力"
+				""
+				"充分利用数字矿机和五倍处理，快速获取稀缺资源"
+				"{@pagebreak}"
+				""
+				"&l&3技术定位：&r&oMEKanism以其精密的化学工程和能源系统著称，在众多科技模组中独树一帜。它既保留了基础机器的简洁易用，又通过层层递进的科技树提供了深度的玩法体验。虽然在本包中作为可选内容，但其技术实力绝对不容小觑。&r"
+				""
+				"&6选择建议：&r 如果你追求高效稳定的能源供给和简化的加工流程，MEK将是你理想的第二选择——在GT的复杂体系之外，开辟一条更加顺畅的工业化道路！"
+			]
+			id: "709857B624096029"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0E9C25C35D173890"
+				type: "checkmark"
+			}]
+			title: "关于通用机械"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7829B4BC1F4BC945"]
+			description: [
+				"&7“阳光转化为能源与热力的高效装置”&r"
+				""
+				"这台3×3×3的精密设备能将太阳能转化为稳定的800J/t（约200RF/t） 能量输出，同时还能为蒸馏塔提供必需的热力。虽然发电量会随湿度、温度、高度等环境因素复杂变化，在日出日落时平滑波动，但它始终是可靠的能源补充选择。"
+				""
+				"不过请注意：它在夜晚完全停工，在下界无法运作，且中心方块上方必须保持露天！"
+				"{@pagebreak}"
+				""
+				"&9核心特性：&r"
+				""
+				"&c环境敏感&r：发电效率受湿度、温度、高度等多重因素影响，实现真实的光能转换"
+				""
+				"&6双重功能&r：既可作为发电机，又能为蒸馏塔的四个角提供热力支持"
+				""
+				"&e智能调节&r：日出日落时发电量平滑过渡，避免电网冲击"
+				""
+				"&b最大输出&r：在理想条件下可达6400J/t的峰值性能"
+				""
+				"&l实用建议：&r"
+				""
+				"&4慎重投资&r：相比风力发电机（1200J/t），此设备的性价比并不突出，除非你需要为蒸馏塔配套"
+				""
+				"&3最佳搭配&r：如已规划蒸馏塔产线，可将其作为附属发电装置，实现能热联产"
+				""
+				"&c避坑指南&r：若担心风力发电机卡停存档，此设备提供了稳定的替代方案"
+				"{@pagebreak}"
+				""
+				"&l&3技术背景：&r&o现实中，太阳能发电的确受到天气、季节、经纬度等多种因素影响。这款发电机模拟了真实的光伏效应，虽然计算复杂，却体现了可再生能源利用的精妙之处——最大限度地捕捉每一缕阳光的能量。&r"
+				""
+				"&6建造提醒：&r 确保3×3×3结构完整且中心顶部无遮挡，否则发电效率将大打折扣！除非有特殊需求，否则风力发电仍是更经济的选择。"
+			]
+			id: "2A3054ED5CE0A508"
+			tasks: [{
+				id: "07993D520CAFD9F7"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7829B4BC1F4BC945"]
+			description: [
+				"&7“捕捉高空之风，转化稳定能源”&r"
+				""
+				"风力发电机是你前期最具性价比的发电选择！它结构简单、造价低廉，却能提供最高 6400 J/t 的稳定输出。通过巧妙利用高度优势，你可以轻松构建一个高效的发电网络。"
+				""
+				"建造时请确保发电机正上方没有任何非透明方块阻挡——这是它正常工作的关键！"
+				"{@pagebreak}"
+				""
+				"&9发电效率与高度关系：&r"
+				""
+				"&c低空稳定&r（转轴高度 ≤ 24）：固定输出 800 J/t"
+				""
+				"&6高空极限&r（转轴高度 ≥ 255）：固定输出 4800 J/t"
+				""
+				"&e线性增长区&r（24 < 高度 < 255）：功率随高度线性增加"
+				""
+				"计算公式：𝑃 = 20𝑦/11 + 180/11"
+				""
+				"&l建造要点：&r"
+				""
+				"总高度为5格，转轴位置 = 底座Y坐标 + 5"
+				""
+				"周围方块不影响发电效率，只需确保正上方通透"
+				""
+				"内置2,000,000 J能量缓存，保证稳定供电"
+				"{@pagebreak}"
+				""
+				"&c重要警告：&r"
+				"风力发电机的渲染非常消耗CPU性能！请务必："
+				""
+				"避免在同一区域密集摆放多个风机"
+				""
+				"将风机阵列建造在远离主基地的开阔地带"
+				""
+				"合理规划布局，平衡发电需求与游戏流畅度"
+				""
+				"&l&3技术背景：&r&o现实中，风力发电确实遵循“高度越高，风速越大，发电效率越高”的规律。游戏中的设计精准还原了这一特性——从近地表的稳定低输出到高空的强劲动力，让你亲身体验风能开发的科学原理。&r"
+				""
+				"&6发展建议：&r 在前期优先建造中等高度（Y=100左右）的风机，以较低成本获得可观收益。后期可在远郊建立高空风机阵列，为你的工业帝国提供清洁能源！"
+			]
+			id: "0E8C13AFFAD65094"
+			tasks: [{
+				id: "364D69FA308E76C1"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"09C0C7377FB66D56"
+				"13A506AB3A8AD951"
+			]
+			id: "0D6356AE92D431E8"
+			tasks: [{
+				id: "3E475CB1931A894E"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4EA15CB8AEFAD259"]
+			id: "13A506AB3A8AD951"
+			tasks: [{
+				id: "52AD78661B640468"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EA15CB8AEFAD259"]
+			id: "6E9F431E08010AE9"
+			tasks: [{
+				id: "134E52C67A3300C4"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E898166B7DEB1D8"]
+			id: "54FBB77A0C0EDC7E"
+			tasks: [{
+				id: "68003AA28098D478"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4EA15CB8AEFAD259"]
+			id: "366793A1BC48BA6E"
+			tasks: [{
+				id: "6D7CEDE7C0D0388E"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+	title: "流水升华"
+}
